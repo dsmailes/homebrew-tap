@@ -9,8 +9,8 @@ caches that AI coding agents leave on your Mac.
 
 ```bash
 brew install dsmailes/tap/skill-issue
-skill-issue --version
-skill-issue
+skill-issue          # read-only report
+skill-issue tui      # interactive screen to pick items and clean them up
 ```
 
 **Use at your own risk.** The audit is read-only, but `skill-issue tui` and

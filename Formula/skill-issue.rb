@@ -20,8 +20,9 @@ class SkillIssue < Formula
       Use at your own risk, and read the disclaimer before cleaning:
         https://github.com/dsmailes/skill-issue#disclaimer
 
-      The audit is read-only. Nothing is removed unless you run `skill-issue tui`
-      or `skill-issue clean`, and everything removed goes to the Trash with a
+      Run `skill-issue` for a read-only report, or `skill-issue tui` for the
+      interactive screen where you pick items to clean. Nothing is removed
+      until you confirm, and everything removed goes to the Trash with a
       restore manifest.
     EOS
   end
